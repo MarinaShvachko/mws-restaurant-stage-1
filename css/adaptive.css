@@ -1,0 +1,23 @@
+@media screen and (max-width: 471px) {
+nav h1 a {
+    letter-spacing: 0px;
+}
+
+.filter-options {
+    height: 134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#neighborhoods-select {
+	margin-bottom: 1px;
+}
+
+#restaurants-list {
+	padding-top: 0;
+}
+
+#restaurants-list li a {
+    margin: 30px 0 0;
+}
