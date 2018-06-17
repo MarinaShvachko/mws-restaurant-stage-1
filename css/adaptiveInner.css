@@ -1,0 +1,73 @@
+@media screen and (max-width: 1150px) {
+
+.inside header {
+    position: relative;
+}
+#breadcrumb {
+	width: 100%;
+	padding: 10px 0px 16px 0px;
+
+}
+
+ .inside #map-container {
+    height: 400px;
+    position: relative;
+    width: 100%;
+    /*margin-top: 130px;*/
+  }
+
+#restaurant-container {
+	width: 100%;
+	padding: 22px 0px 30px 0px;
+	position: relative;
+	/*text-align: center;*/
+}
+
+#restaurant-name {
+	padding-left: 40px;
+}
+
+#restaurant-img {
+	width: 100%;
+}
+#restaurant-cuisine {
+	width: 100%;
+}
+#restaurant-address {
+	text-align: center;
+}
+
+#restaurant-hours {
+	margin: auto;
+}
+#reviews-container {
+	padding: 30px 0px 80px;
+	width: 100%;
+}
+
+.paddindBread {
+	padding-left: 40px;
+}
+
+#reviews-list {
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+	padding-left: 40px;
+}
+
+.inside #footer {
+/*position: relative;*/
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+#footer {
+
+}
+}
+
