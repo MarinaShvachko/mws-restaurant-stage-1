@@ -23,12 +23,13 @@ a {
 }
 a:hover, a:focus {
 	color: #3397db;
-  box-shadow: 0 0 0 4px orange; /*тень обводки заголовка*/
+  box-shadow: 0 0 0 4px orange; /*shadow for heading*/
 	text-decoration: none;
 }
 a img{
 	border: none 0px #fff;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
@@ -107,9 +108,7 @@ nav h1 a {
 }
 
 #map:focus {
-  /*box-shadow: 0 0 0 4px orange;*/
-  tabindex="-1";
-
+  box-shadow: 0 0 0 4px orange; /*shadow around map*/
 }
 
 /* ====================== Restaurant Filtering ====================== */
@@ -137,6 +136,10 @@ nav h1 a {
   padding: 0 10px;
   width: 200px;
 }
+.filter-options select:focus {
+   box-shadow: 0 0 0 4px orange; /*shadow around filters*/
+ }
+
 
 /* ====================== Restaurant Listing ====================== */
 .filterTitle {
@@ -201,6 +204,10 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#restaurants-list li a:focus {
+  box-shadow:0 0 0 5px #0000FF;
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -296,6 +303,12 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+#restaurant-hours:focus {
+  box-shadow: 0 0 0 5px orange; /*shadow around timetable*/
+}
+
+
 .nameStyle {
 width: 50%;
 }
@@ -310,7 +323,10 @@ border-radius: 3px;
 width: 100px;
 text-align: center;
 }
-
+.ratingBackground:focus {
+  tabindex="0";
+  box-shadow: 0 0 0 5px green;
+}
 /*===========*/
 
 /*nav h1: focus {
@@ -318,9 +334,15 @@ text-align: center;
 }*/
 
 
-#neighborhoods-select:focus{
-  color:red;
-  border-color: black;
-  box-shadow:0 0 0 3px orange;
+/*#neighborhoods-select:focus {
+  color: #00008B;
+  box-shadow:0 0 0 5px orange;
 }
+
+#cuisines-select:focus {
+  color: #00008B
+  border-color: black;
+  box-shadow:0 0 0 5px orange;
+}*/
+
 

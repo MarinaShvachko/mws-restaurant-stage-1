@@ -195,7 +195,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     function onClick() {
       window.location.href = marker.options.url;
     }
-    self.markers.push(marker);
+    self.markers.push(marker)
   });
 
 } 
