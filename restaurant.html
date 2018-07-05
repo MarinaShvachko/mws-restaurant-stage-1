@@ -21,8 +21,10 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
+<a href="#restaurant-name" class="skip">Go to the restaurant details</a>
 
-    <ul id="breadcrumb" >
+
+    <ul id="breadcrumb" role="navigation">
       <li class="paddindBread"><a href="/">Home</a></li>
     </ul>
 
@@ -40,7 +42,7 @@
   <main id="maincontent">
     <!-- Beginning map -->
 
-
+                   
 
   
 
@@ -52,9 +54,9 @@
 
 
 
-    <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img">
+    <section id="restaurant-container" role="article" aria-label="restaurant details">
+      <h2 id="restaurant-name" tabindex="0" ></h2>
+      <img id="restaurant-img"  alt="photo of the restaurant">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
       <table id="restaurant-hours" tabindex="0"></table>
@@ -67,8 +69,8 @@
 
 
 
-    <section id="reviews-container">
-      <ul id="reviews-list"></ul>
+    <section id="reviews-container" role="article">
+      <ul id="reviews-list" tabindex="0"></ul>
     </section>
     <!-- End reviews -->
 
@@ -92,6 +94,7 @@
   <script type="text/javascript" src="js/dbhelper.js"></script>
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
+  <script src="js/swRegistration.js"></script>
   <!-- Google Maps -->
  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script> -->
   <!-- End scripts -->
